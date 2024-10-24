@@ -1,28 +1,50 @@
-body {
-    background-color: blue;
-    font-family:'Courier New', Courier, monospace;
+body{
+    background-color: white;
+    font-family:Bai Jamjuree;
 }
+
 #container{
-    display: flex;
-
+    display:flex;
 }
-.cartão{
 
+.cartão {
+    margin:1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-basis: calc(33% - 0.6rem)
 }
+
+.cartão_conteudo {
+    text-align: center;
+    background-color: aquamarine;
+    height: 100%;
+}
+
+.cartão_conteudo h3 {
+    background-color: blueviolet;
+    text-align: left;
+}
+
+
+
+
+
+
+
 
 footer {
-    background-color: pink;
+    background-color: rgb(241, 69, 247);
     color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 2rem;
 }
-footer p {
-    text-align: center;
-}
+
 footer p {
     text-align: center;
     font-size: 0.6rem;
+    margin-top: 0.5rem
 }
+
 
